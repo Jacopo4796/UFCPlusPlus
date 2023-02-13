@@ -3,14 +3,13 @@ using namespace std;
 
 int main()
 {
-    int i = 1;
-    int n = 100;
-    int somma = 0;
-    int a;
-     
-     for(i = 0; i < n; i += 1)
-     {
-        cin >> a;
-        cout << somma + a;
-     }
+   int totale = 0;
+   for(int i = 1; i <= 100; i++)
+   {
+      totale = totale += i;
+   }
+   cout << "la somma dei numeri interi  da 1 a 100 è " << totale << "\n";
+   return 0;
+   
+
 }
