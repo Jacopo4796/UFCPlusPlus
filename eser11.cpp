@@ -9,6 +9,6 @@ int main()
    {
       totale = totale + i;
    }
-   cout << "la somma dei numeri interi  da 1 a 100 è " << totale << "\n";
+   cout << "la somma dei numeri interi compresi tra 1 a 100 è " << totale << "\n";
    return 0;
 }

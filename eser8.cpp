@@ -15,9 +15,9 @@ int main()
 
     int lunghezza = nome.length();
 
-    riga += "+-------"; 
+    riga += "+-------";
 
-    for(int i = 0; i < lunghezza; i++)
+    for (int i = 0; i < lunghezza; i++)
     {
         riga += "-";
     }
@@ -26,8 +26,8 @@ int main()
     cout << riga;
 
     cout << "|    " << nome << "   |\n";
-   
-   cout << riga;
-   
+
+    cout << riga;
+
     return 0;
 }
