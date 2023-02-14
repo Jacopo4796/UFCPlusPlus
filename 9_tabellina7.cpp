@@ -2,12 +2,19 @@
 #include <string>
 using namespace std;
 
+void stampaTabellina(int n)
+{
+    for(int i = 0; i <= 10; i++)
+    {
+        cout << n << " x " << i << " = " << n * i << "\n";
+    }
+}
+
+
 int main()
 {
-    for (int i = 0; i <= 10; i++)
-    {
-        cout << "7 x " << i << " = " << 7 * i << "\n";
-    }
+   stampaTabellina(7);
+    
     return 0;
 }
 
