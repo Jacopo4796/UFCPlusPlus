@@ -15,13 +15,13 @@ int main()
     cin >> anno;
     
 
-    if(anno % 400 == 0 or anno % 4 == 0)
+    if((anno % 4 == 0 and anno % 100 != 0) || anno % 400 == 0)
     {
-        cout << "l'anno è bisestile";
+        cout << "l'anno è bisestile \n";
     }
     else 
     {
-        cout << "l'anno non è bisestile";
+        cout << "l'anno non è bisestile \n";
     }
 
 
